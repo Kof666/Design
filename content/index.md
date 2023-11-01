@@ -6,6 +6,6 @@ Description: This is our index page.
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
+![me](%assets_url%/img/me.png)
 
-This is a sample home page written in markdown with some frontmatter defined.
+Jag heter Kristoffer och är 44 år. Jag har jobbat i kulturvärlden som ljusdesigner hela mitt liv, främst som turnerande ljustekniker åt olika band och artister.
