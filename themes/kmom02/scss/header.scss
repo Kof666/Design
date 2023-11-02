@@ -1,0 +1,27 @@
+/* Header */
+
+.header, .footer {
+    background-color: #97aec7;
+    flex: 0 0 auto;
+    border-bottom: 3px solid $accent-color;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+
+    .site-header {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.title, .logo {
+    padding: 1em 4em 1em 0;
+
+    .logo {
+        padding-right: 2em;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}

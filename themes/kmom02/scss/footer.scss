@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid $accent-color;
+    padding: 3em;
+
+    a {
+        padding: 1em;
+        color: $link-color;
+    }
+
+    a:hover {
+        color: $accent-color;
+    }
+
+    .social {
+        font-size: 2rem;
+    }
+}
