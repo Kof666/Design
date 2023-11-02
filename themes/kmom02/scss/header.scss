@@ -1,14 +1,15 @@
 /* Header */
 
 .header, .footer {
-    background-color: #97aec7;
+    background-color: $background-alternative-color;
     flex: 0 0 auto;
     border-bottom: 3px solid $accent-color;
-    padding: 1em;
+    padding: 0 1em;
     display: flex;
     justify-content: space-between;
 
     .site-header {
+        font-weight: bold;
         display: flex;
         justify-content: space-between;
     }

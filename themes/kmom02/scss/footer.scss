@@ -2,11 +2,12 @@
     display: flex;
     justify-content: space-between;
     border-top: 3px solid $accent-color;
-    padding: 3em;
+    padding: 2em 2em 1em;
 
     a {
-        padding: 1em;
+        padding: 0.5rem;
         color: $link-color;
+        text-decoration: none;
     }
 
     a:hover {
@@ -15,5 +16,9 @@
 
     .social {
         font-size: 2rem;
+    }
+
+    p {
+        font-weight: bold;
     }
 }
