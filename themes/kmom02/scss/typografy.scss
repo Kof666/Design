@@ -1,7 +1,40 @@
+/*grund från dbwebb*/
+html {
+    font-size: 100%;
+}
+
+@media (min-width: 64em) {
+  html {
+    font-size: 112.5%;
+  }
+}
+
 body {
-    font-family: sans-serif;
-    line-height: 1.5rem;
-    color: #444;
+    line-height: 1.2;
+}
+
+p {
+    font-family: $font-body_text;
+    color: $font-color;
+    font-size: 1.25em;
+    margin-bottom: 1.5rem; /* 1.2 * 1.25em vår baseline */
+    letter: spacing 1px;
+}
+
+h1 {
+    font-family: $font-heading;
+    font-weight: bold;
+    color: $font-color;
+    font-size: 2.8em;
+    margin-bottom: 3rem; /* baseline * 2, för att skapa mer utrymme */
+}
+
+h2 {
+    font-family: $font-heading;
+    font-weight: bold;
+    color: $font-color;
+    font-size: 2em;
+    margin-bottom: 3rem; /* baseline * 2, för att skapa mer utrymme */
 }
 
 p, td, th, li, dd {
@@ -10,16 +43,8 @@ p, td, th, li, dd {
     word-wrap: break-word;
 }
 
-p {
-    font-family: $font-body_text;
-    font-size: 1.1rem;
-    margin-bottom: 1.4rem;
-}
-
-h1, h2, h3, h4, h5, h6 {
+a {
     font-family: $font-heading;
-    margin-bottom: 0.6em;
-    font-weight: bold;
 }
 
 img {
