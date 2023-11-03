@@ -25,11 +25,9 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     padding: 0;
 }
 
-html, body {
-    height: 100%;
-    line-height: 1.4;
+.hidden {
+    display: none !important;
 }
-
 /* Placement */
 
 body {
@@ -44,14 +42,4 @@ body {
     margin: 0 auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
-}
-
-/* title */
-
-.title * {
-    color: #111;
-}
-
-.logo {
-    padding-right: 2em;
 }

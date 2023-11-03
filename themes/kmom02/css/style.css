@@ -6461,6 +6461,7 @@ pre code {
 
 /* Navbar */
 .nav ul li a {
+  font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
 }
@@ -6471,7 +6472,7 @@ pre code {
 }
 
 /* Header */
-.header, .footer {
+.header {
   background-color: #97aec7;
   flex: 0 0 auto;
   border-bottom: 3px solid #a64dee;
@@ -6479,24 +6480,30 @@ pre code {
   display: flex;
   justify-content: space-between;
 }
-.header .site-header, .footer .site-header {
+.header .site-header {
   font-weight: bold;
   display: flex;
   justify-content: space-between;
 }
+.header .logo {
+  margin-top: 1rem;
+  padding: 1rem;
+}
 
-.title, .logo {
-  padding: 1em 4em 1em 0;
+.title {
+  padding: 0;
 }
-.title .logo, .logo .logo {
-  padding-right: 2em;
+.title .title * {
+  color: #111;
 }
-.title a, .logo a {
+.title a {
   text-decoration: none;
 }
 
 .footer {
+  background-color: #97aec7;
   display: flex;
+  flex: 0 0 auto;
   justify-content: space-between;
   border-top: 3px solid #a64dee;
   padding: 2em 2em 1em;
@@ -6514,11 +6521,16 @@ pre code {
 }
 .footer p {
   font-weight: bold;
+  font-size: 1rem;
+  margin-right: 4rem;
+  width: 100%;
 }
 
 /*grund från dbwebb*/
-html {
+html, body {
   font-size: 100%;
+  height: 100%;
+  line-height: 1.4;
 }
 
 @media (min-width: 64em) {
@@ -6535,7 +6547,7 @@ p {
   color: #333;
   font-size: 1.25em;
   margin-bottom: 1.5rem; /* 1.2 * 1.25em vår baseline */
-  letter: spacing 1px;
+  letter-spacing: 1px;
 }
 
 h1 {
@@ -6543,7 +6555,7 @@ h1 {
   font-weight: bold;
   color: #333;
   font-size: 2.8em;
-  margin-bottom: 3rem; /* baseline * 2, för att skapa mer utrymme */
+  margin-bottom: rem; /* baseline * 2, för att skapa mer utrymme */ /*ändrade för det såg inte bra ut*/
 }
 
 h2 {
@@ -6551,7 +6563,15 @@ h2 {
   font-weight: bold;
   color: #333;
   font-size: 2em;
-  margin-bottom: 3rem; /* baseline * 2, för att skapa mer utrymme */
+  margin-bottom: 0.5rem; /* baseline * 2, för att skapa mer utrymme */ /*ändrade för det såg inte bra ut*/
+}
+
+h3 {
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 0.5rem; /* baseline * 2, för att skapa mer utrymme */ /*ändrade för det såg inte bra ut*/
 }
 
 p, td, th, li, dd {
@@ -6608,9 +6628,8 @@ img {
   padding: 0;
 }
 
-html, body {
-  height: 100%;
-  line-height: 1.4;
+.hidden {
+  display: none !important;
 }
 
 /* Placement */
@@ -6626,13 +6645,4 @@ body {
   margin: 0 auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-/* title */
-.title * {
-  color: #111;
-}
-
-.logo {
-  padding-right: 2em;
 }

@@ -1,6 +1,6 @@
 /* Header */
 
-.header, .footer {
+.header {
     background-color: $background-alternative-color;
     flex: 0 0 auto;
     border-bottom: 3px solid $accent-color;
@@ -13,13 +13,19 @@
         display: flex;
         justify-content: space-between;
     }
-}
-
-.title, .logo {
-    padding: 1em 4em 1em 0;
 
     .logo {
-        padding-right: 2em;
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+}
+
+.title {
+    padding: 0;
+
+    .title * {
+        color: #111;
+        
     }
 
     a {
