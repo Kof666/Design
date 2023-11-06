@@ -6,7 +6,12 @@ Description: This is our test page.
 Test page
 ==========================
 
-<div class="first-box"> Skall va 600x100px, black, content-box <br> box-sizing: content-box</div>
-<div class="second-box"> Skall va 600x100px, blue, content-box <br> box-sizing: content-box</div>
-<div class="third-box"> fyller upp 50% av veiwpoints bredd och 100px hög, red, border-box <br> box-sizing: border-box</div>
-<div class="fourth-box"> fyller upp hela bredden och 100px hög, green <br> box-sizing: border-box</div>
+<div class="grid wrapper-test">
+    <div class="header1">Header</div>
+    <div class="side-bar1">Side-bar</div>
+    <div class="grid main1">
+    <div class="top-left1">Top-left</div>
+    <div class="top-right1">Top-right</div>
+    <div class="bottom1">Bottom<div></div>
+    <div class="footer1">Footer<div>
+</div>

@@ -55,6 +55,13 @@ p, td, th, li, dd {
 
 a {
     font-family: $font-heading;
+    color: $accent-color;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: $font-color;
 }
 
 img {
