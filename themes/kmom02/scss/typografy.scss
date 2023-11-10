@@ -64,6 +64,8 @@ a:hover {
     color: $font-color;
 }
 
-img {
-    max-width: 100%;
+.figurecaption {
+    font-family: $font-body-text;
+    color: $font-color;
+    font-size: smaller;
 }

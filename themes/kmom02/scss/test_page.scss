@@ -15,7 +15,7 @@
 .footer1,
 .side-bar1 {
     padding: 1em;
-    border: 3px solid black;
+    border: 3px solid #000;
 }
 
 /* --------------- Header --------------- */
@@ -40,7 +40,7 @@
 
 .main1 > * {
     background-color: #fff;
-    border: 2px dotted black;
+    border: 2px dotted #000;
 }
 
 .bottom1 { grid-area: bottom; }

@@ -1,9 +1,4 @@
-/*new font awsome imports*/
-@import '../../shared/fontawesome/scss/fontawesome';
-$fa-font-path: '../../shared/fontawesome/webfonts';
-@import '../../shared/fontawesome/scss/brands';
-@import '../../shared/fontawesome/scss/solid';
-@import '../../shared/fontawesome/scss/regular';
+
 
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
@@ -14,10 +9,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'footer';
 @import 'typografy';
 @import 'test_page';
-@import 'technologies.scss';
-
-/*typsnitt fron google font*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Varela+Round&display=swap');
+@import 'technologies';
+@import 'technology-sub';
 
 * {
     box-sizing: border-box;
@@ -43,4 +36,14 @@ body {
     margin: 0 auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img-shaddow {
+    border: solid 1px $accent-color;
+    box-shadow: 0 1px 16px 5px  $accent-color;
+    max-width: 100%;
 }

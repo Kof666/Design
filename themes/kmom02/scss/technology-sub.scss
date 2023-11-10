@@ -1,0 +1,62 @@
+/* flexbox */
+
+.flex-contanier {
+    display: flex;
+}
+
+/* text box"*/
+.flex-one {
+    width:20%;
+    padding: 1em;
+    /*padding: 1em 5em 1em 2em;*/
+    border: solid 1px $accent-color;
+    box-shadow: 0 1px 16px 5px  $accent-color;
+
+    h3 {
+        font-size: 100%;
+        font-weight:bolder;
+    }
+
+    a {
+        font-size: 90%;
+    }
+}
+
+.flex-contanier .flex-one ul li {
+    font-family: $font-heading;
+    color: $accent-color;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+}
+
+.flex-contanier a:hover {
+    color: $font-color;
+}
+
+.flex-two {
+    width: 80%;
+    margin-left:2em;
+    margin-right:2em;
+    padding: 1em;
+    
+    img {
+        float:right;
+    }
+}
+/*
+.flex-three {
+    width:28%;
+    padding:1em;
+
+    img {
+        border: solid 1px $accent-color;
+        box-shadow: 0 1px 16px 5px  $accent-color;
+
+    }
+
+    p {
+        font-size: smaller;
+    }
+}
+*/

@@ -1,3 +1,13 @@
+/*typsnitt fron google font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Varela+Round&display=swap');
+
+/*new font awsome imports*/
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
 $font-color: #333;
 $link-color: #270344;
 $font-alternative-color: #fff;

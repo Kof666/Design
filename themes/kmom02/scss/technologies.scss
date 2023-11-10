@@ -3,7 +3,6 @@
 /* --------------- Layout --------------- */
 
 .wrapper {
-    max-width: 900px;
     margin: 0 auto;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 100px auto;
@@ -87,22 +86,6 @@
     grid-column: 2/4;
     grid-row: 5/5;
     text-align: center;
-}
-
-.flex-container {
-    display: flex;
-    background-color: blue;
-}
-
-.flex {
-    flex-wrap: wrap;
-}
-
-
-.img-tech {
-    float: right;
-    margin:auto;
-    padding:0;
 }
 
 /* --------------- Responsiveness --------------- */
