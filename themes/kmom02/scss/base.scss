@@ -1,0 +1,38 @@
+/* the basis of the style */
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Placement */
+
+body {
+    background-color: $background-color;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.shaddow {
+    border: solid 1px $accent-color;
+    box-shadow: 0 1px 16px 5px  $accent-color;
+    max-width: 100%;
+}

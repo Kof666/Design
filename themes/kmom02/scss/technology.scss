@@ -1,14 +1,13 @@
-/* flexbox */
+/* style for technology.twig pages / flexbox */
 
 .flex-contanier {
     display: flex;
 }
 
-/* text box"*/
+/* flex-one style for links block */
 .flex-one {
     width:20%;
     padding: 1em;
-    /*padding: 1em 5em 1em 2em;*/
     border: solid 1px $accent-color;
     box-shadow: 0 1px 16px 5px  $accent-color;
 
@@ -22,6 +21,7 @@
     }
 }
 
+/* flex-two style for text content block */
 .flex-contanier .flex-one ul li {
     font-family: $font-heading;
     color: $accent-color;
@@ -44,19 +44,14 @@
         float:right;
     }
 }
-/*
+
+/* flex-three style for picture block */
 .flex-three {
     width:28%;
     padding:1em;
 
-    img {
-        border: solid 1px $accent-color;
-        box-shadow: 0 1px 16px 5px  $accent-color;
-
-    }
-
     p {
-        font-size: smaller;
+        font-style: italic;
+        font-size:x-small;
     }
 }
-*/

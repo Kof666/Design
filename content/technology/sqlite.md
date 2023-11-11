@@ -1,7 +1,7 @@
 ---
 Title: sqlite
 Description: Text about SQLite.
-Template: technology-sub
+Template: technology
 ---
 
 <div class="flex-one">

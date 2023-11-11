@@ -1,26 +1,13 @@
-/*grund från dbwebb*/
+/* the basis for the typography style */
+
 html, body {
     font-size: 100%;
     height: 100%;
     line-height: 1.4;
 }
 
-@media (min-width: 64em) {
-    html {
-        font-size: 112.5%;
-    }
-}
-
 body {
     line-height: 1.2;
-}
-
-p {
-    font-family: $font-body-text;
-    color: $font-color;
-    font-size: 1.25em;
-    margin-bottom: 1.5rem; /* 1.2 * 1.25em vår baseline */
-    letter-spacing: 1px;
 }
 
 h1 {
@@ -53,6 +40,14 @@ p, td, th, li, dd {
     word-wrap: break-word;
 }
 
+p {
+    font-family: $font-body-text;
+    color: $font-color;
+    font-size: 1.25em;
+    margin-bottom: 1.5rem; /* 1.2 * 1.25em vår baseline */
+    letter-spacing: 1px;
+}
+
 a {
     font-family: $font-heading;
     color: $accent-color;
@@ -68,4 +63,11 @@ a:hover {
     font-family: $font-body-text;
     color: $font-color;
     font-size: smaller;
+}
+
+/* responsivness */
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
 }

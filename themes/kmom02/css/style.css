@@ -6425,6 +6425,113 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+/*grund från dbwebb*/
+html, body {
+  font-size: 100%;
+  height: 100%;
+  line-height: 1.4;
+}
+
+@media (min-width: 64em) {
+  html {
+    font-size: 112.5%;
+  }
+}
+body {
+  line-height: 1.2;
+}
+
+p {
+  font-family: "Varela", sans-serif;
+  color: #333;
+  font-size: 1.25em;
+  margin-bottom: 1.5rem; /* 1.2 * 1.25em vår baseline */
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+  color: #333;
+  font-size: 2.8em;
+  margin-bottom: rem; /* baseline * 2, för att skapa mer utrymme */ /*ändrade för det såg inte bra ut*/
+}
+
+h2 {
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 0.5rem; /* baseline * 2, för att skapa mer utrymme */ /*ändrade för det såg inte bra ut*/
+}
+
+h3 {
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 0.5rem; /* baseline * 2, för att skapa mer utrymme */ /*ändrade för det såg inte bra ut*/
+}
+
+p, td, th, li, dd {
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+a {
+  font-family: "Varela Round", sans-serif;
+  color: #9512ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333;
+}
+
+.figurecaption {
+  font-family: "Varela", sans-serif;
+  color: #333;
+  font-size: smaller;
+}
+
+* {
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* Placement */
+body {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 0 auto;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.shaddow {
+  border: solid 1px #9512ff;
+  box-shadow: 0 1px 16px 5px #9512ff;
+  max-width: 100%;
+}
+
 /*
 blockquote {
     font-style: italic;
@@ -6521,77 +6628,6 @@ pre code {
   font-size: 1rem;
   margin-right: 4rem;
   width: 100%;
-}
-
-/*grund från dbwebb*/
-html, body {
-  font-size: 100%;
-  height: 100%;
-  line-height: 1.4;
-}
-
-@media (min-width: 64em) {
-  html {
-    font-size: 112.5%;
-  }
-}
-body {
-  line-height: 1.2;
-}
-
-p {
-  font-family: "Varela", sans-serif;
-  color: #333;
-  font-size: 1.25em;
-  margin-bottom: 1.5rem; /* 1.2 * 1.25em vår baseline */
-  letter-spacing: 1px;
-}
-
-h1 {
-  font-family: "Varela Round", sans-serif;
-  font-weight: bold;
-  color: #333;
-  font-size: 2.8em;
-  margin-bottom: rem; /* baseline * 2, för att skapa mer utrymme */ /*ändrade för det såg inte bra ut*/
-}
-
-h2 {
-  font-family: "Varela Round", sans-serif;
-  font-weight: bold;
-  color: #333;
-  font-size: 2em;
-  margin-bottom: 0.5rem; /* baseline * 2, för att skapa mer utrymme */ /*ändrade för det såg inte bra ut*/
-}
-
-h3 {
-  font-family: "Varela Round", sans-serif;
-  font-weight: bold;
-  color: #333;
-  font-size: 1.2em;
-  margin-bottom: 0.5rem; /* baseline * 2, för att skapa mer utrymme */ /*ändrade för det såg inte bra ut*/
-}
-
-p, td, th, li, dd {
-  text-align: justify;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-}
-
-a {
-  font-family: "Varela Round", sans-serif;
-  color: #9512ff;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #333;
-}
-
-.figurecaption {
-  font-family: "Varela", sans-serif;
-  color: #333;
-  font-size: smaller;
 }
 
 .grid {
@@ -6817,54 +6853,11 @@ a:hover {
   float: right;
 }
 
-/*
 .flex-three {
-    width:28%;
-    padding:1em;
-
-    img {
-        border: solid 1px $accent-color;
-        box-shadow: 0 1px 16px 5px  $accent-color;
-
-    }
-
-    p {
-        font-size: smaller;
-    }
+  width: 28%;
+  padding: 1em;
 }
-*/
-* {
-  box-sizing: border-box;
-  border: 0 none;
-  margin: 0;
-  padding: 0;
-}
-
-.hidden {
-  display: none !important;
-}
-
-/* Placement */
-body {
-  background-color: #d1e3fa;
-  display: flex;
-  flex-direction: column;
-}
-
-.main {
-  flex: 1 0 auto;
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-img {
-  max-width: 100%;
-}
-
-.img-shaddow {
-  border: solid 1px #9512ff;
-  box-shadow: 0 1px 16px 5px #9512ff;
-  max-width: 100%;
+.flex-three p {
+  font-style: italic;
+  font-size: x-small;
 }
