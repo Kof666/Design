@@ -39,19 +39,32 @@
     margin-left:2em;
     margin-right:2em;
     padding: 1em;
-    
-    img {
-        float:right;
+
+    pre {
+        font-style: italic;
+        padding-top: 0.5rem;
     }
 }
 
-/* flex-three style for picture block */
-.flex-three {
-    width:28%;
-    padding:1em;
 
-    p {
-        font-style: italic;
-        font-size:x-small;
+
+@media screen and (max-width: 800px) {
+    .main {
+        .flex-contanier { flex-direction: column; }
+    }
+
+    .flex-one {
+        display: none;
+    }
+
+    h3 {
+        text-align: center;
+    }
+    
+    .flex-two,
+    .flex-three {
+        width: 100%;
+        box-shadow:none;
+        font-size: 90%;
     }
 }
