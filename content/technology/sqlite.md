@@ -13,7 +13,7 @@ Template: technology
         <img src="%assets_url%/img/sqlite.png" alt="pic">
         <figcaption>Exempel på SQLite</figcaption>
     </figure>
-    <a href="%base_url%?/technology">Tillbaka</a>
+    <a href="%base_url%?technology">Tillbaka</a>
 </div>
 
 

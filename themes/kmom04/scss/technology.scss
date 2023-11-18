@@ -1,0 +1,70 @@
+/* style for technology.twig pages / flexbox */
+
+.flex-contanier {
+    display: flex;
+}
+
+/* flex-one style for links block */
+.flex-one {
+    width:20%;
+    padding: 1em;
+    border: solid 1px $accent-color;
+    box-shadow: 0 1px 16px 5px  $accent-color;
+
+    h3 {
+        font-size: 100%;
+        font-weight:bolder;
+    }
+
+    a {
+        font-size: 90%;
+    }
+}
+
+/* flex-two style for text content block */
+.flex-contanier .flex-one ul li {
+    font-family: $font-heading;
+    color: $accent-color;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+}
+
+.flex-contanier a:hover {
+    color: $font-color;
+}
+
+.flex-two {
+    width: 80%;
+    margin-left:2em;
+    margin-right:2em;
+    padding: 1em;
+
+    pre {
+        font-style: italic;
+        padding-top: 0.5rem;
+    }
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .main {
+        .flex-contanier { flex-direction: column; }
+    }
+
+    .flex-one {
+        display: none;
+    }
+
+    h3 {
+        text-align: center;
+    }
+    
+    .flex-two,
+    .flex-three {
+        width: 100%;
+        box-shadow:none;
+        font-size: 90%;
+    }
+}

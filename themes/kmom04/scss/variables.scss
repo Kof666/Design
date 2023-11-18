@@ -1,0 +1,31 @@
+/*typsnitt fron google font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Varela+Round&display=swap');
+
+/*new font awsome imports*/
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+/* color variables */
+$font-color: #333;
+$link-color: #270344;
+$font-alternative-color: #fff;
+$accent-color: #9412ff;
+$background-color: #fff;
+$background-alternative-color: #97aec7;
+
+/* font variables */
+$font-heading: 'Varela Round', sans-serif;
+$font-body-text: 'Varela', sans-serif;
+
+@mixin heading {
+    font-family: $font-heading;
+    color:$font-color;
+}
+
+@mixin body-text {
+    font-family: $font-body-text;
+    color:$font-color;
+}

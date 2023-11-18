@@ -22,5 +22,5 @@ Template: technology
         <img src="%assets_url%/img/javascript.png" alt="pic">
         <figcaption>Exempel på Javascript</figcaption>
     </figure>
-    <a href="%base_url%?/technology">Tillbaka</a></td>
+    <a href="%base_url%?technology">Tillbaka</a></td>
 </div>

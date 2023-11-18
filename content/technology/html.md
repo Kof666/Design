@@ -15,6 +15,6 @@ Template: technology
         <img src="%assets_url%/img/html.png" alt="pic">
         <figcaption>Exempel på HTML</figcaption>
     </figure>
-    <a href="%base_url%?/technology">Tillbaka</a></td>
+    <a href="%base_url%?technology">Tillbaka</a></td>
 </div>
 

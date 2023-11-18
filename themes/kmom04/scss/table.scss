@@ -1,0 +1,46 @@
+table {
+    @include body-text;
+
+    max-width: 100%;
+    width: 100%;
+    border-collapse: collapse;
+
+    tr:nth-child(2n) {
+        background-color: #eee;
+    }
+
+    th {
+        text-align: left;
+    }
+    
+    td {
+        border-top: solid 1px #ccc;
+    }
+    
+    th,
+    td {
+        padding: 0.8rem 1.2rem;
+    }
+}
+
+/*----- col palette ----*/
+
+.col-palette {
+    border-spacing: 4px;
+    border-collapse: separate;
+
+    td {
+        height: 50px;
+        width: 50px;
+    }
+
+    td {
+        height: 50px;
+        width: 50px;
+    }
+
+    td {
+        height: 50px;
+        width: 50px;
+    }
+}

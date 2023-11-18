@@ -43,3 +43,5 @@ Ange de eventuella referenser du använder dig av, om några.
 -----------------------
 
 Skriv ditt eget namn samt vilka gruppmedlemmar som deltog i att författa rapporten.
+
+<a href="%base_url%?analysis">tillbaka</a>
