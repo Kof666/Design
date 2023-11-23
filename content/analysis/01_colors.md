@@ -6,69 +6,94 @@ Template: analysis
 
 Utvärdering av webbplatsers färgval
 =======================
-(Skriv en eller två rader om vad uppgiften handlar om.)
 
 Vi tittar på ett begränsat antal webbplatser där vi undersöker deras val av typsnitt och färg. Därefter analyserar vi och frågar oss vad webbplatsernas design och färgsättning förmedlar för signaler och känsla till oss som användare.
+<br>
 
 Urval
 -----------------------
 
-(Berätta vilka webbplatser du valt att undersöka och varför eller hur du gick tillväga när du gjorde ditt urval.)
-
-Denna utvärdering är baserad på tre stycken webbplatser som representerar olika artister. Webbplatserna är tre utvalda artister från Wikipedias lista över svenska vissångare. 
-https://sv.wikipedia.org/wiki/Kategori:Svenska_viss%C3%A5ngare 
+Denna utvärdering är baserad på tre webbplatser som representerar olika svenska vissångare. Webbplatserna är tre utvalda artister från Wikipedias lista över svenska vissångare. 
 
 <a href="https://sv.wikipedia.org/wiki/Kategori:Svenska_viss%C3%A5ngare">vissångare Wikipedia</a>
-
-urval
-https://www.melissahorn.se/
-https://www.hakanhellstrom.se/
-https://stefansundstrom.se/
-
+<br>
 
 Metod
 -----------------------
 
-Berätta kort om din "metod", hur du gör för att utföra undersökningen. Berätta om du använder något speciellt verktyg.
+Den metod som framför allt använts är firefox devtools. Där har vi med hjälp av inspektör filken inspekterat både typsnitt och färger.
+<br>
 
 Resultat
 -----------------------
 
-Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade.
-
 ###Typsnitt
-|Webbplats|Rubrik|brödtext|
-|---------|------|--------|
-|Melissa Horn|hep|hep|
-|Stefan Sundström|yep|jap|
-|Håkan Hellström|äh|jaja|
+|Webbplats       |Rubrik         |brödtext         |
+|----------------|---------------|-----------------|
+|Melissa Horn    |Gilroy-Semibold|Open Sans Regular|
+|Stefan Sundström|Barlow Bold    |Barlow Regular   |
+|Håkan Hellström |QuentinRegular |QuentinRegular   |
+
+<br>
 
 ###Färgval
-Melissa Horn
+
+**Melissa Horn**
+Här hittade vi ett komplements färgschema:
 <table class="col-palette">
 <tr>
-<td style="background-color: rgb(255, 68, 0)">
-<td>
-<td>
+<td style="background-color: #e6e6e6">#e6e6e6</td>
+<td style="background-color: #2c2d2f; color:#eee">#2c2d2f</td>
+<td style="background-color: #bfbfbf">#bfbfbf</td>
+<td style="background-color: #ac5e24">#ac5e24</td>
+<td style="background-color: #509e81">#509e81</td>
 </tr>
 </table>
-Stefan Sundström
+<br>
 
-Håkan Hellström
+**Stefan Sundström** 
+Här hittas inget tydligt färgschema:
+<table class="col-palette">
+<tr>
+<td style="background-color: #ffffff">#ffffff</td>
+<td style="background-color: #c9493b">#c9493b</td>
+<td style="background-color: #202020; color:#eee">#202020</td>
+</tr>
+</table>
+<br>
+
+**Håkan Hellström**: 
+Här kan man ana ett analogt färgschema:
+<table class="col-palette">
+<tr>
+<td style="background-color: #0f0e0e; color:#eee">#0f0e0e</td>
+<td style="background-color: #010101; color:#eee">#010101</td>
+<td style="background-color: #fd7cac">#fd7cac</td>
+<td style="background-color: #f7cb5c">#f7cb5c</td>
+</tr>
+</table>
+<br>
 
 Analys
 -----------------------
+Det som först slår mej är dels att färgsättningen skiljer sig mycket mellan dom olika webbplatserna och även att en färgpalett för hemsidan inte alltid ger samma känsla som den faktiska webbplatsen ger. Det förvånade mej även lite hur lite färg några av webbplatserna använde. Både Mellisa Horns och Stefan Sundströms hemsidor var väldigt ljusa/vita där färgerna förutom den ljus bakgrunden mest används som accent färger. Detta ger såklart bilderna en både större och viktigare roll i att förmedla den känsla man vill åt. Detta visade sig enligt min mening då Mellisa Horns bilder hjälpte till att ge en mer stillsam och lätt känsla. Även styrkan på färgerna skiljde sig åt då Sundströms få färger och bilder var mer kraftiga och förmedlade med detta en starkare mer maskulin känsla. Håkan hellströms webbplats stack ut i avseendet att den var både mer färgstark och med mörk bakgrund. Även typsnittet var av mera stark karaktär i jämförelse till övriga.
 
-Diskutera och analysera de resultaten du fann.(svammel å gissa)
+Det känns tydligt att valet av färger och sammansättningen av mörka eller ljus färger är viktigt för att förmedla den känsla man vill och det blir oxå tydligt att dessa webbplatser tänkt igenom detta nogrannt.
+<br>
 
 Referenser
 -----------------------
 
-Ange de eventuella referenser du använder dig av, om några.
+Granskade webbplatser:<br>
+https://www.melissahorn.se/<br>
+https://www.hakanhellstrom.se/<br>
+https://stefansundstrom.se/<br>
+<br>
 
 Övrigt
 -----------------------
 
-Skriv ditt eget namn samt vilka gruppmedlemmar som deltog i att författa rapporten.
+Kristoffer Berg
+
 
 <a href="%base_url%?analysis">tillbaka</a>
