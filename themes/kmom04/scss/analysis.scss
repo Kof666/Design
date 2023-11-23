@@ -32,11 +32,13 @@
     grid-row: 2 / 3;
     margin: 1rem;
 }
+
 .mid {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
     margin: 1rem;
 }
+
 .bottom {
     grid-column: 2 / 3;
     grid-row: 4 / 5;
@@ -46,7 +48,7 @@
 .top,
 .mid,
 .bottom {
-    border: 1px solid #ccc;
+    border: $border;
     border-radius: 0.3em;
     padding-bottom: 1rem;
 
@@ -64,22 +66,26 @@
 
 
 .side-analysis {
+    @include box-shaddow;
+
+    background-color: $box-color;
     border: solid 1px $accent-color;
     border-radius: 0.3em;
-    box-shadow: 0 1px 16px 5px  $accent-color;
     grid-column: 1 / 2;
     grid-row: 1 / 5;
-    
-    h3,
-    p {
+      
+    h3 {
         margin: 1rem;
-        padding: 1rem;
+        margin-top: 2rem;
         padding-left:0;
     }
 
-    p,
-    a {
-        padding-top: 0;
+    p {
+        font-size:medium;
+        font-style: italic;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: -0.7rem;
     }
 }
 
@@ -105,8 +111,17 @@
 /* --------------- Responsiveness --------------- */
 
 @media screen and (max-width: 960px) {
+
     .main-analysis {
         padding: 0.5em;
         grid-gap: 5px;
+    }
+
+    .content {
+        grid-column: 1 / 3;
+    }
+
+    .side-analysis {
+        display: none;
     }
 }

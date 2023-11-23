@@ -14,11 +14,20 @@ $link-color: #270344;
 $font-alternative-color: #fff;
 $accent-color: #9412ff;
 $background-color: #fff;
+$box-color: #fff;
+$border: 1px solid #ccc;
 $background-alternative-color: #97aec7;
 
 /* font variables */
 $font-heading: 'Varela Round', sans-serif;
 $font-body-text: 'Varela', sans-serif;
+
+@mixin box-shaddow {
+    border: solid 1px $accent-color;
+    box-shadow: 0 1px 16px 5px  $accent-color;
+    border-radius: 0.3em;
+    max-width: 100%;
+}
 
 @mixin heading {
     font-family: $font-heading;

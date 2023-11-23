@@ -7,11 +7,15 @@
 @import 'blockquotes';
 @import 'code';
 @import 'navbar';
-@import 'header';
-@import 'footer';
+@import 'header-dark';
+@import 'footer-dark';
 
 @import 'test_page';
 @import 'technologies';
 @import 'technology';
 @import 'analysis';
 @import 'table';
+
+img {
+    filter: brightness(.50) contrast(1.2);
+}

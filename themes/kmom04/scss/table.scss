@@ -6,7 +6,7 @@ table {
     border-collapse: collapse;
 
     tr:nth-child(2n) {
-        background-color: #eee;
+        background-color: $border;
     }
 
     th {
@@ -14,7 +14,7 @@ table {
     }
     
     td {
-        border-top: solid 1px #ccc;
+        border-top: solid 1px $font-color;
     }
     
     th,
@@ -30,17 +30,8 @@ table {
     border-collapse: separate;
 
     td {
-        height: 50px;
+        height: 200px;
         width: 50px;
-    }
-
-    td {
-        height: 50px;
-        width: 50px;
-    }
-
-    td {
-        height: 50px;
-        width: 50px;
+        text-align: center;
     }
 }

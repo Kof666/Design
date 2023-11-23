@@ -10,15 +10,23 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 /* color variables */
 $font-color: #777;
-$link-color: #270344;
+$link-color: #6000ae;
 $font-alternative-color: #555;
-$accent-color: #bb67ff;
-$background-color: #323232;
-$background-alternative-color: #374b5f;
+$accent-color: #7307cb;
+$background-color: #07111b;
+$box-color: #0a1826;
+$border: 1px solid #464646;
+$background-alternative-color: #0d2237;
 
 /* font variables */
 $font-heading: 'Varela Round', sans-serif;
 $font-body-text: 'Varela', sans-serif;
+
+@mixin box-shaddow {
+    border: solid 1px $accent-color;
+    box-shadow: none;
+    border-radius: 0.3em;
+    max-width: 100%;}
 
 @mixin heading {
     font-family: $font-heading;

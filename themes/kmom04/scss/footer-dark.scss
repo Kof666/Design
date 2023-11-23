@@ -1,0 +1,31 @@
+/* footer style */
+
+.footer {
+    background-color: $background-alternative-color;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    border-top: 3px solid $accent-color;
+    padding: 2em 2em 1em;
+
+    a {
+        padding: 0.5rem;
+        color: $link-color;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $font-color;
+    }
+
+    .social {
+        font-size: 2rem;
+    }
+
+    p {
+        font-weight: bold;
+        font-size: 1rem;
+        margin-right: 4rem;
+        width:100%;
+    }
+}
