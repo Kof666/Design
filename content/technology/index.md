@@ -1,11 +1,11 @@
 ---
-Title: Technologies
+Title: Teknologier
 Description: This is my technologies page.
 Template: technologies
 ---
 
 <div class="head">
-    <h2>TECHNOLOGIES</h2>
+    <h2>TEKNOLOGIER</h2>
 </div>
 <div class="css-box">
     <a href="technology/css">CSS</a>

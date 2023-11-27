@@ -1,9 +1,9 @@
 ---
-Title: Home
+Title: Hem
 Description: This is our index page.
 ---
 
-Home page
+Hem
 ==========================
 
 ![me](%assets_url%/img/me.png) {.img-shaddow}

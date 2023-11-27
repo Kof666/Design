@@ -6478,7 +6478,7 @@ p {
 
 a {
   font-family: "Varela Round", sans-serif;
-  color: #9412ff;
+  color: #726A55;
   font-weight: bold;
   text-decoration: none;
 }
@@ -6513,7 +6513,7 @@ a:hover {
 
 /* Placement */
 body {
-  background-color: #97aec7;
+  background-color: #8F9FC7;
   display: flex;
   flex-direction: column;
 }
@@ -6524,6 +6524,8 @@ body {
   flex: 1 0 auto;
   width: 80%;
   margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding: 1rem;
 }
 
@@ -6597,7 +6599,7 @@ pre code {
 /* Navbar */
 .nav ul li a {
   font-family: "Varela Round", sans-serif;
-  color: #9412ff;
+  color: #726A55;
   font-weight: bold;
   text-decoration: none;
 }
@@ -6607,8 +6609,8 @@ pre code {
 
 /* Header style */
 .header {
-  background-color: #97aec7;
-  border-bottom: 3px solid #9412ff;
+  background-color: #8F9FC7;
+  border-bottom: 3px solid #726A55;
   padding: 0 1em;
   display: flex;
   justify-content: space-between;
@@ -6632,20 +6634,20 @@ pre code {
 
 /* footer style */
 .footer {
-  background-color: #97aec7;
+  background-color: #8F9FC7;
   display: flex;
   flex: 0 0 auto;
   justify-content: space-between;
-  border-top: 3px solid #9412ff;
+  border-top: 3px solid #726A55;
   padding: 2em 2em 1em;
 }
 .footer a {
   padding: 0.5rem;
-  color: #270344;
+  color: #293247;
   text-decoration: none;
 }
 .footer a:hover {
-  color: #9412ff;
+  color: #726A55;
 }
 .footer .social {
   font-size: 2rem;
@@ -6756,22 +6758,22 @@ pre code {
 .sqlite-box {
   padding: 1em;
   margin: 1em;
-  border: solid 0.1em #9412ff;
+  border: solid 0.1em #726A55;
 }
 
 /* --------------- Header --------------- */
 .head {
-  background-color: #97aec7;
+  background-color: #8F9FC7;
   grid-column: 1/4;
   grid-row: 1/1;
-  border: solid 0.1em #9412ff;
+  border: solid 0.1em #726A55;
   text-align: center;
   margin-bottom: 0.5rem;
 }
 
 /* --------------- Content  --------------- */
 .css-box {
-  background-color: #97aec7;
+  background-color: #8F9FC7;
   grid-column: 1/1;
   grid-row: 2/2;
   grid-gap: 25px;
@@ -6781,42 +6783,42 @@ pre code {
 }
 
 .html-box {
-  background-color: #97aec7;
+  background-color: #8F9FC7;
   grid-column: 2/4;
   grid-row: 2/2;
   text-align: center;
 }
 
 .javascript-box {
-  background-color: #97aec7;
+  background-color: #8F9FC7;
   grid-column: 1/3;
   grid-row: 3/3;
   text-align: center;
 }
 
 .php-box {
-  background-color: #97aec7;
+  background-color: #8F9FC7;
   grid-column: 3/4;
   grid-row: 3/3;
   text-align: center;
 }
 
 .python-box {
-  background-color: #97aec7;
+  background-color: #8F9FC7;
   grid-column: 1/4;
   grid-row: 4/4;
   text-align: center;
 }
 
 .git-box {
-  background-color: #97aec7;
+  background-color: #8F9FC7;
   grid-column: 1/2;
   grid-row: 5/5;
   text-align: center;
 }
 
 .sqlite-box {
-  background-color: #97aec7;
+  background-color: #8F9FC7;
   grid-column: 2/4;
   grid-row: 5/5;
   text-align: center;
@@ -6848,8 +6850,8 @@ pre code {
 
 /* flex-one style for links block */
 .flex-one {
-  border: solid 1px #9412ff;
-  box-shadow: 0 1px 16px 5px #9412ff;
+  border: solid 1px #726A55;
+  box-shadow: 0 1px 16px 5px #726A55;
   border-radius: 0.3em;
   max-width: 100%;
   background-color: #fff;
@@ -6867,7 +6869,7 @@ pre code {
 /* flex-two style for text content block */
 .flex-contanier .flex-one ul li {
   font-family: "Varela Round", sans-serif;
-  color: #9412ff;
+  color: #726A55;
   font-weight: bold;
   text-decoration: none;
   list-style: none;
@@ -6932,6 +6934,7 @@ pre code {
   grid-row: 1/5;
   margin: 1rem;
   padding-left: 1rem;
+  overflow-y: auto;
 }
 
 /* --------------- Content  --------------- */
@@ -6981,12 +6984,12 @@ pre code {
 }
 
 .side-analysis {
-  border: solid 1px #9412ff;
-  box-shadow: 0 1px 16px 5px #9412ff;
+  border: solid 1px #726A55;
+  box-shadow: 0 1px 16px 5px #726A55;
   border-radius: 0.3em;
   max-width: 100%;
   background-color: #fff;
-  border: solid 1px #9412ff;
+  border: solid 1px #726A55;
   border-radius: 0.3em;
   grid-column: 1/2;
   grid-row: 1/5;
@@ -7013,11 +7016,22 @@ pre code {
 }
 .grid .side-analysis ul a {
   font-family: "Varela Round", sans-serif;
-  color: #9412ff;
+  color: #726A55;
   font-weight: bold;
 }
 .grid .side-analysis ul a:hover {
   color: #333;
+}
+
+.analysis-pic img {
+  size: 90%;
+}
+
+.analysis-pic {
+  size: 90%;
+  border: 1px solid #ccc;
+  border-radius: 0.3em;
+  padding: 1rem;
 }
 
 /* --------------- Responsiveness --------------- */

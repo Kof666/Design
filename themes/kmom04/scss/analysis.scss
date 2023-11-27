@@ -23,6 +23,7 @@
     grid-row: 1 / 5;
     margin: 1rem;
     padding-left:1rem;
+    overflow-y: auto;
 }
 
 /* --------------- Content  --------------- */
@@ -108,10 +109,20 @@
     }
 }
 
+.analysis-pic img {
+    size: 90%;
+}
+
+.analysis-pic {
+    size: 90%;
+    border: $border;
+    border-radius: 0.3em;
+    padding:1rem;
+}
+
 /* --------------- Responsiveness --------------- */
 
 @media screen and (max-width: 960px) {
-
     .main-analysis {
         padding: 0.5em;
         grid-gap: 5px;

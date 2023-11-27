@@ -1,27 +1,27 @@
 ---
-Title: Analysis
+Title: Rapporter
 Description: This is my start page for analysis.
 Template: analysis
 ---
 <div class="header-analysis">
-    <h2>Analyser</h2>
+    <h2>Rapporter</h2>
     <p>
-    Här presenteras dom analyser vi gör i kursen design. 
+    Här presenteras dom rapporter vi gör i kursen design. 
     </p>
 </div>
 <div class="top">
     <h3>Färger</h3>
-    <p>Den första analysen handlar om färger och färgscheman på olika webbplatser.
+    <p>Den första rapporten handlar om färger och färgscheman på olika webbplatser.
     </p>
-    <a href="analysis/01_colors">Färg-analysen</a>
+    <a href="analysis/01_colors">Färg-rapport</a>
 </div>
 <div class="mid">
     <h3>load</h3>
-    <a href="analysis/02_load">analysen</a>
+    <a href="analysis/02_load">rapport</a>
 </div>
 <div class="bottom">
     <h3>Design Principer</h3>'
-    <a href="analysis/03_design_principles">analysen</a>
+    <a href="analysis/03_design_principles">rapport</a>
 <div>
 
 

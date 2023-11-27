@@ -6524,6 +6524,8 @@ body {
   flex: 1 0 auto;
   width: 80%;
   margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding: 1rem;
 }
 
@@ -6933,6 +6935,7 @@ pre code {
   grid-row: 1/5;
   margin: 1rem;
   padding-left: 1rem;
+  overflow-y: auto;
 }
 
 /* --------------- Content  --------------- */
@@ -7019,6 +7022,17 @@ pre code {
 }
 .grid .side-analysis ul a:hover {
   color: #777;
+}
+
+.analysis-pic img {
+  size: 90%;
+}
+
+.analysis-pic {
+  size: 90%;
+  border: 1px solid #464646;
+  border-radius: 0.3em;
+  padding: 1rem;
 }
 
 /* --------------- Responsiveness --------------- */

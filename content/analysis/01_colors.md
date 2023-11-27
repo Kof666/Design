@@ -38,7 +38,8 @@ Resultat
 
 ###Färgval
 
-**Melissa Horn**
+Melissa Horn
+-----------------
 Här hittade vi ett komplements färgschema:
 <table class="col-palette">
 <tr>
@@ -50,8 +51,12 @@ Här hittade vi ett komplements färgschema:
 </tr>
 </table>
 <br>
+![Melissa Horn](%assets_url%/img/mh.png) {.analysis-pic}
+Melissa Horn webbplats
+<br>
 
-**Stefan Sundström** 
+Stefan Sundström
+---------------------
 Här hittas inget tydligt färgschema:
 <table class="col-palette">
 <tr>
@@ -60,9 +65,12 @@ Här hittas inget tydligt färgschema:
 <td style="background-color: #202020; color:#eee">#202020</td>
 </tr>
 </table>
+![Melissa Horn](%assets_url%/img/ss.png) {.analysis-pic}
+Stefan Sundström webbplats
 <br>
 
-**Håkan Hellström**: 
+Håkan Hellström
+------------------- 
 Här kan man ana ett analogt färgschema:
 <table class="col-palette">
 <tr>
@@ -72,11 +80,13 @@ Här kan man ana ett analogt färgschema:
 <td style="background-color: #f7cb5c">#f7cb5c</td>
 </tr>
 </table>
+![Melissa Horn](%assets_url%/img/hh.png) {.analysis-pic}
+Håkan Hellström webbplats
 <br>
 
 Analys
 -----------------------
-Det som först slår mej är dels att färgsättningen skiljer sig mycket mellan dom olika webbplatserna och även att en färgpalett för hemsidan inte alltid ger samma känsla som den faktiska webbplatsen ger. Det förvånade mej även lite hur lite färg några av webbplatserna använde. Både Mellisa Horns och Stefan Sundströms hemsidor var väldigt ljusa/vita där färgerna förutom den ljus bakgrunden mest används som accent färger. Detta ger såklart bilderna en både större och viktigare roll i att förmedla den känsla man vill åt. Detta visade sig enligt min mening då Mellisa Horns bilder hjälpte till att ge en mer stillsam och lätt känsla. Även styrkan på färgerna skiljde sig åt då Sundströms få färger och bilder var mer kraftiga och förmedlade med detta en starkare mer maskulin känsla. Håkan hellströms webbplats stack ut i avseendet att den var både mer färgstark och med mörk bakgrund. Även typsnittet var av mera stark karaktär i jämförelse till övriga.
+Det som först slår mej är dels att färgsättningen skiljer sig mycket mellan dom olika webbplatserna och även att en färgpalett för hemsidan inte alltid ger samma känsla som den faktiska webbplatsen ger. Det förvånade mej även lite hur lite färg några av webbplatserna använde. Både Mellisa Horns och Stefan Sundströms hemsidor var väldigt ljusa/vita där färgerna förutom den ljus bakgrunden mest används som accent färger. Detta ger såklart bilderna en både större och viktigare roll i att förmedla den känsla man vill åt. Detta visade sig enligt min mening då Mellisa Horns bilder hjälpte till att ge en mer stillsam och lätt känsla. Även styrkan på färgerna skiljde sig åt då Sundströms få färger och bilder var mer kraftiga och förmedlade med detta en starkare känsla. Håkan hellströms webbplats stack ut i avseendet att den var både mer färgstark och med mörk bakgrund. Även typsnittet var av mera stark karaktär i jämförelse till övriga.
 
 Det känns tydligt att valet av färger och sammansättningen av mörka eller ljus färger är viktigt för att förmedla den känsla man vill och det blir oxå tydligt att dessa webbplatser tänkt igenom detta nogrannt.
 <br>
