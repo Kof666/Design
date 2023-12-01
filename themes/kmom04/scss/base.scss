@@ -30,7 +30,8 @@ body {
     padding: 1rem;
 }
 
-img {
+/* för att bilder ska hålla sig innanför layouten */
+img, embed, object, video {
     max-width: 100%;
 }
 
