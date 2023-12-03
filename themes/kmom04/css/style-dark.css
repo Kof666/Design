@@ -6944,6 +6944,10 @@ pre code {
   width: 100%;
   height: 10rem;
 }
+.content .mätdata {
+  width: 90%;
+  height: 20rem;
+}
 .content a {
   text-align: left;
 }
