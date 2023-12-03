@@ -8,7 +8,7 @@ Template: gallery
     <a href="%base_url%/image/gallery/pic1.jpg">
         <picture>
             <source media="(max-width: 668px)" srcset="%base_url%/image/gallery/pic1.jpg?w=668&crop-to-fit&area=0,15,0,15">
-            <source media="(min-width: 310px)" srcset="%base_url%/image/gallery/pic1.jpg?w=310">
+            <source media="(min-width: 310px)" srcset="%base_url%/image/gallery/pic1.jpg?w=310&q=100">
             <img src="%base_url%/image/gallery/pic1.jpg" alt="pic1">
         </picture>
     </a>
@@ -18,7 +18,7 @@ Template: gallery
     <a href="%base_url%/image/gallery/pic2.jpg">
         <picture>
             <source media="(max-width: 668px)" srcset="%base_url%/image/gallery/pic2.jpg?w=668&crop-to-fit&area=0,15,0,15">
-            <source media="(min-width: 310px)" srcset="%base_url%/image/gallery/pic2.jpg?w=310">
+            <source media="(min-width: 310px)" srcset="%base_url%/image/gallery/pic2.jpg?w=310&q=100">
             <img src="%base_url%/image/gallery/pic2.jpg" alt="pic2">
         </picture>
     </a>
@@ -28,7 +28,7 @@ Template: gallery
     <a href="%base_url%/image/gallery/pic3.jpg">
         <picture>
             <source media="(max-width: 668px)" srcset="%base_url%/image/gallery/pic3.jpg?w=668&crop-to-fit&area=0,15,0,15">
-            <source media="(min-width: 310px)" srcset="%base_url%/image/gallery/pic3.jpg?w=310">
+            <source media="(min-width: 310px)" srcset="%base_url%/image/gallery/pic3.jpg?w=310&q=100">
             <img src="%base_url%/image/gallery/pic3.jpg" alt="pic3">
         </picture>
     </a>
@@ -38,7 +38,7 @@ Template: gallery
     <a href="%base_url%/image/gallery/pic4.jpg">
         <picture>
             <source media="(max-width: 668px)" srcset="%base_url%/image/gallery/pic4.jpg?w=668&crop-to-fit&area=0,15,0,15">
-            <source media="(min-width: 310px)" srcset="%base_url%/image/gallery/pic4.jpg?w=310">
+            <source media="(min-width: 310px)" srcset="%base_url%/image/gallery/pic4.jpg?w=310&q=100">
             <img src="%base_url%/image/gallery/pic4.jpg" alt="pic4">
         </picture>
     </a>
@@ -48,7 +48,7 @@ Template: gallery
     <a href="%base_url%/image/gallery/pic5.jpg">
         <picture>
             <source media="(max-width: 668px)" srcset="%base_url%/image/gallery/pic5.jpg?w=668&crop-to-fit&area=0,15,0,15">
-            <source media="(min-width: 310px)" srcset="%base_url%/image/gallery/pic5.jpg?w=310">
+            <source media="(min-width: 310px)" srcset="%base_url%/image/gallery/pic5.jpg?w=310&q=100">
             <img src="%base_url%/image/gallery/pic5.jpg" alt="pic5">
         </picture>
     </a>
@@ -58,7 +58,7 @@ Template: gallery
     <a href="%base_url%/image/gallery/pic6.jpg">
         <picture>
             <source media="(max-width: 668px)" srcset="%base_url%/image/gallery/pic6.jpg?w=668&crop-to-fit&area=0,15,0,15">
-            <source media="(min-width: 310px)" srcset="%base_url%/image/gallery/pic6.jpg?w=310">
+            <source media="(min-width: 310px)" srcset="%base_url%/image/gallery/pic6.jpg?w=310&q=100">
             <img src="%base_url%/image/gallery/pic6.jpg" alt="pic6">
         </picture>
     </a>
@@ -68,7 +68,7 @@ Template: gallery
     <a href="%base_url%/image/gallery/pic7.jpg">
         <picture>
             <source media="(max-width: 668px)" srcset="%base_url%/image/gallery/pic7.jpg?w=668&crop-to-fit&area=0,15,0,15">
-            <source media="(min-width: 310px)" srcset="%base_url%/image/gallery/pic7.jpg?w=310">
+            <source media="(min-width: 310px)" srcset="%base_url%/image/gallery/pic7.jpg?w=310&q=100">
             <img src="%base_url%/image/gallery/pic7.jpg" alt="pic7">
         </picture>
     </a>
@@ -78,7 +78,7 @@ Template: gallery
     <a href="%base_url%/image/gallery/pic8.jpg">
         <picture>
             <source media="(max-width: 668px)" srcset="%base_url%/image/gallery/pic8.jpg?w=668&crop-to-fit&area=0,15,0,15">
-            <source media="(min-width: 310px)" srcset="%base_url%/image/gallery/pic8.jpg?w=310">
+            <source media="(min-width: 310px)" srcset="%base_url%/image/gallery/pic8.jpg?w=310&q=100">
             <img src="%base_url%/image/gallery/pic8.jpg" alt="pic8">
         </picture>
     </a>
@@ -88,7 +88,7 @@ Template: gallery
     <a href="%base_url%/image/gallery/pic9.jpg">
         <picture>
             <source media="(max-width: 668px)" srcset="%base_url%/image/gallery/pic9.jpg?w=668&crop-to-fit&area=0,15,0,15">
-            <source media="(min-width: 310px)" srcset="%base_url%/image/gallery/pic9.jpg?w=310">
+            <source media="(min-width: 310px)" srcset="%base_url%/image/gallery/pic9.jpg?w=310&q=100">
             <img src="%base_url%/image/gallery/pic9.jpg" alt="pic9">
         </picture>
     </a>
@@ -115,43 +115,9 @@ Template: gallery
 </div>
 
 <div>
-    <a href="%base_url%/image/gallery/pic12.jpg">
-        <picture>
-            <source media="(max-width: 668px)" srcset="%base_url%/image/gallery/pic12.jpg?w=668&crop-to-fit&area=0,15,0,15">
-            <source media="(min-width: 310px)" srcset="%base_url%/image/gallery/pic12.jpg?w=310">
-            <img src="%base_url%/image/gallery/pic12.jpg" alt="pic12">
-        </picture>
-    </a>
-</div>
-
-<div>
     <a href="%base_url%/gallery/video1">
         <div class="embed-container">
-            <iframe src="https://www.youtube.com//embed/XykrZ7j9JF4" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </a>
-</div>
-
-<div>
-    <a href="%base_url%/gallery/video2">
-        <div class="embed-container">
             <iframe src="https://www.youtube.com//embed/EceyCgxG1c8" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </a>
-</div>
-
-<div>
-    <a href="%base_url%/gallery/video3">
-        <div class="embed-container">
-            <iframe src="https://www.youtube.com//embed/y44W7gc0Gik" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </a>
-</div>
-
-<div>
-    <a href="%base_url%/gallery/video4">
-        <div class="embed-container">
-            <iframe src="https://www.youtube.com//embed/21X5lGlDOfg" frameborder="0" allowfullscreen></iframe>
         </div>
     </a>
 </div>
