@@ -117,7 +117,7 @@ Template: gallery
 <div>
     <a href="%base_url%/gallery/video1">
         <div class="embed-container">
-            <iframe src="https://www.youtube.com//embed/EceyCgxG1c8" frameborder="0" allowfullscreen></iframe>
+            <iframe title="myFrame" src="https://www.youtube.com//embed/EceyCgxG1c8" frameborder="0" allowfullscreen></iframe>
         </div>
     </a>
 </div>

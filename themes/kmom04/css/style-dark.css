@@ -6944,10 +6944,6 @@ pre code {
   width: 100%;
   height: 10rem;
 }
-.content .mätdata {
-  width: 90%;
-  height: 20rem;
-}
 .content a {
   text-align: left;
 }
@@ -7077,6 +7073,7 @@ table th {
   text-align: left;
 }
 table td {
+  font-size: 130%;
   border-top: solid 1px #777;
 }
 table th,
