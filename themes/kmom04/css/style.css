@@ -6530,7 +6530,10 @@ body {
 }
 
 /* för att bilder ska hålla sig innanför layouten */
-img, embed, object, video {
+img,
+embed,
+object,
+video {
   max-width: 100%;
 }
 
@@ -6936,6 +6939,13 @@ pre code {
   padding-left: 1rem;
   overflow-y: auto;
 }
+.content iframe {
+  width: 100%;
+  height: 10rem;
+}
+.content a {
+  text-align: left;
+}
 
 /* --------------- Content  --------------- */
 .top {
@@ -6980,6 +6990,7 @@ pre code {
 .top a,
 .mid a,
 .bottom a {
+  text-align: left;
   margin-left: 1rem;
 }
 
