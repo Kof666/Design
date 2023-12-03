@@ -13,10 +13,11 @@ Template: analysis
     <h3>Färger</h3>
     <p>Den första rapporten handlar om färger och färgscheman på olika webbplatser.
     </p>
-    <a href="analysis/01_colors">Färg-rapport</a>
+    <a href="analysis/01_colors">rapport</a>
 </div>
 <div class="mid">
     <h3>load</h3>
+    <p>Här är en rapport om laddningstider och användbarhet</p>
     <a href="analysis/02_load">rapport</a>
 </div>
 <div class="bottom">
