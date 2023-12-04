@@ -15,6 +15,6 @@ Template: technology
         <img src="%assets_url%/img/git.png" alt="pic">
         <figcaption>Exempel på GIT repo webbsida</figcaption>
     </figure>
-    <a href="%base_url%?technology">Tillbaka</a></td>
+    <a class="grow" href="%base_url%?technology">Tillbaka</a></td>
 </div>
 

@@ -14,7 +14,7 @@
 /* Placement */
 
 body {
-    background-color: $background-alternative-color;
+    @include gradient;
     display: flex;
     flex-direction: column;
 }

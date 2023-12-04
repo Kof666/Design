@@ -72,4 +72,4 @@ Med resultaten från den här rapporten skulle jag säga att en laddningstid und
 
 Kristoffer Berg
 
-<a href="%base_url%?analysis">tillbaka</a>
+<a class="grow" href="%base_url%?analysis">tillbaka</a>

@@ -23,6 +23,6 @@ Template: technology
         <img src="%assets_url%/img/php.png" alt="pic">
         <figcaption>Exempel på PHP</figcaption>
     </figure>
-    <a href="%base_url%?technology">Tillbaka</a></td>
+    <a class="grow" href="%base_url%?technology">Tillbaka</a></td>
 </div>
 

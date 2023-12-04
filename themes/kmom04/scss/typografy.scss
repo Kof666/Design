@@ -52,12 +52,26 @@ a {
     font-family: $font-heading;
     color: $accent-color;
     font-weight: bold;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 a:hover {
     color: $font-color;
 }
+
+.grow {
+    display: inline-block;
+    transition-duration: $defaultDuration;
+    transition-property: transform;
+  
+    @include hideTapHighlightColor();
+    @include hardwareAccel();
+    @include improveAntiAlias();
+  
+    &:hover {
+        transform: scale(1.1);
+    }
+  }
 
 .figurecaption {
     font-family: $font-body-text;

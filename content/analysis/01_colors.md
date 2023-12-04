@@ -15,7 +15,7 @@ Urval
 
 Denna utvärdering är baserad på tre webbplatser som representerar olika svenska vissångare. Webbplatserna är tre utvalda artister från Wikipedias lista över svenska vissångare. 
 
-<a href="https://sv.wikipedia.org/wiki/Kategori:Svenska_viss%C3%A5ngare">vissångare Wikipedia</a>
+<a class="grow" href="https://sv.wikipedia.org/wiki/Kategori:Svenska_viss%C3%A5ngare">vissångare Wikipedia</a>
 <br>
 
 Metod
@@ -95,9 +95,9 @@ Referenser
 -----------------------
 
 Granskade webbplatser:<br>
-https://www.melissahorn.se/<br>
-https://www.hakanhellstrom.se/<br>
-https://stefansundstrom.se/<br>
+<a class="grow" href="https://www.melissahorn.se/">www.melissahorn.se</a><br>
+<a class="grow" href="https://www.hakanhellstrom.se/">www.hakanhellstrom.se</a><br>
+<a class="grow" href="https://stefansundstrom.se/">stefansundstrom.se</a><br>
 <br>
 
 Övrigt
@@ -106,4 +106,4 @@ https://stefansundstrom.se/<br>
 Kristoffer Berg
 
 
-<a href="%base_url%?analysis">tillbaka</a>
+<a class="grow" href="%base_url%?analysis">tillbaka</a>

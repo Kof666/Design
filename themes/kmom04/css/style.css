@@ -6487,6 +6487,18 @@ a:hover {
   color: #333;
 }
 
+.grow {
+  display: inline-block;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.grow:hover {
+  transform: scale(1.1);
+}
+
 .figurecaption {
   font-family: "Varela", sans-serif;
   color: #333;
@@ -6513,13 +6525,14 @@ a:hover {
 
 /* Placement */
 body {
-  background-color: #8F9FC7;
+  background: rgb(224, 226, 230);
+  background: radial-gradient(circle, rgb(224, 226, 230) 0%, rgb(149, 180, 238) 55%, rgb(162, 176, 211) 100%);
   display: flex;
   flex-direction: column;
 }
 
 .main {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.4352941176);
   border-radius: 0.3em;
   flex: 1 0 auto;
   width: 80%;
@@ -6545,7 +6558,7 @@ pre {
 figure {
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.168627451);
   padding: 0.5rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -6576,7 +6589,7 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 1.3em;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.168627451);
   font-family: "Varela", sans-serif;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6587,7 +6600,7 @@ pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.168627451);
 }
 
 pre code {
@@ -6609,6 +6622,7 @@ pre code {
 }
 .nav ul li a:hover {
   color: #333;
+  transform: scale(1.2);
 }
 
 /* Header style */
@@ -6860,7 +6874,7 @@ pre code {
   box-shadow: 0 1px 16px 5px #7f1d8e;
   border-radius: 0.3em;
   max-width: 100%;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.168627451);
   width: 20%;
   padding: 1em;
 }
@@ -6999,7 +7013,7 @@ pre code {
   box-shadow: 0 1px 16px 5px #7f1d8e;
   border-radius: 0.3em;
   max-width: 100%;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.168627451);
   border: solid 1px #7f1d8e;
   border-radius: 0.3em;
   grid-column: 1/2;
@@ -7016,6 +7030,9 @@ pre code {
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: -0.7rem;
+}
+.side-analysis a {
+  text-align: left;
 }
 
 .grid .side-analysis ul {

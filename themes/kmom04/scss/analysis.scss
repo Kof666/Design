@@ -98,6 +98,10 @@
         margin-right: 1rem;
         margin-top: -0.7rem;
     }
+
+    a {
+        text-align:left;
+    }
 }
 
 .grid .side-analysis ul {
@@ -111,7 +115,7 @@
     a {
         font-family: $font-heading;
         color: $accent-color;
-        font-weight: bold; 
+        font-weight: bold;
     }
 
     a:hover {

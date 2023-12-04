@@ -8,23 +8,23 @@ Template: technologies
     <h2>TEKNOLOGIER</h2>
 </div>
 <div class="css-box">
-    <a href="technology/css">CSS</a>
+    <a class="grow" href="technology/css">CSS</a>
 </div>
 <div class="html-box">
-    <a href="technology/html">HTML</a>
+    <a class="grow" href="technology/html">HTML</a>
 </div>
 <div class="javascript-box">
-    <a href="technology/javascript">Javascript</a>
+    <a class="grow" href="technology/javascript">Javascript</a>
 </div>
 <div class="php-box">
-    <a href="technology/php">PHP</a>
+    <a class="grow" href="technology/php">PHP</a>
 </div>
 <div class="python-box">
-    <a href="technology/python">python</a>
+    <a class="grow" href="technology/python">python</a>
 </div>
 <div class="git-box">
-    <a href="technology/git">GIT</a>
+    <a class="grow" href="technology/git">GIT</a>
 </div>
 <div class="sqlite-box wide">
-    <a href="technology/sqlite">SQLite</a>
+    <a class="grow" href="technology/sqlite">SQLite</a>
 </div>
