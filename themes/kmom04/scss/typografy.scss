@@ -56,12 +56,12 @@ a {
 }
 
 a:hover {
-    color: $font-color;
+    color: #dd01ff;
 }
 
 .grow {
     display: inline-block;
-    transition-duration: $defaultDuration;
+    transition-duration: $default-duration;
     transition-property: transform;
   
     @include hideTapHighlightColor();
@@ -71,7 +71,7 @@ a:hover {
     &:hover {
         transform: scale(1.1);
     }
-  }
+}
 
 .figurecaption {
     font-family: $font-body-text;

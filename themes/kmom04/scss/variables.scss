@@ -10,9 +10,9 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 /* color variables */
 $font-color: #333;
-$link-color: #4b1453;
+$link-color: #681775;
 $font-alternative-color: #fff;
-$accent-color: #7f1d8e;
+$accent-color: #b523cb;
 $background-color: #ffffff6f;
 $box-color: #ffffff2b;
 $border: 1px solid #ccc;
@@ -22,22 +22,22 @@ $background-alternative-color: #8F9FC7;
 $font-heading: 'Varela Round', sans-serif;
 $font-body-text: 'Varela', sans-serif;
 
-$defaultDuration: .3s;
+$default-duration: .3s;
 
 @mixin hideTapHighlightColor() {
     //Prevent highlight colour when element is tapped
     -webkit-tap-highlight-color: rgba(0,0,0,0);
-  }
+}
 
 @mixin hardwareAccel() {
     //Improve performance on mobile/tablet devices
     transform: translateZ(0);
-  }
+}
   
-  @mixin improveAntiAlias() {
+@mixin improveAntiAlias() {
     //Improve aliasing on mobile/tablet devices
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  }
+}
 
 @mixin box-shaddow {
     border: solid 1px $accent-color;
@@ -57,6 +57,6 @@ $defaultDuration: .3s;
 }
 
 @mixin gradient {
-  background: rgb(224,226,230);
-  background: radial-gradient(circle, rgba(224,226,230,1) 0%, rgba(149,180,238,1) 55%, rgba(162,176,211,1) 100%);
+    background: rgb(224,226,230);
+    background: radial-gradient(circle, rgba(224,226,230,1) 0%, rgba(149,180,238,1) 55%, rgba(162,176,211,1) 100%);
 }

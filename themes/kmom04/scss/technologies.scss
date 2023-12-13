@@ -21,6 +21,10 @@
     padding: 1em;
     margin: 1em;
     border: solid 0.1em $accent-color;
+
+    a {
+        color: $link-color;
+    }
 }
 
 /* --------------- Header --------------- */

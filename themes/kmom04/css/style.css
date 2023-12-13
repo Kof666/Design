@@ -6478,13 +6478,13 @@ p {
 
 a {
   font-family: "Varela Round", sans-serif;
-  color: #7f1d8e;
+  color: #b523cb;
   font-weight: bold;
   text-decoration: none;
 }
 
 a:hover {
-  color: #333;
+  color: #dd01ff;
 }
 
 .grow {
@@ -6616,7 +6616,7 @@ pre code {
 /* Navbar */
 .nav ul li a {
   font-family: "Varela Round", sans-serif;
-  color: #7f1d8e;
+  color: #b523cb;
   font-weight: bold;
   text-decoration: none;
 }
@@ -6628,7 +6628,7 @@ pre code {
 /* Header style */
 .header {
   background-color: #8F9FC7;
-  border-bottom: 3px solid #7f1d8e;
+  border-bottom: 3px solid #b523cb;
   padding: 0 1em;
   display: flex;
   justify-content: space-between;
@@ -6656,16 +6656,16 @@ pre code {
   display: flex;
   flex: 0 0 auto;
   justify-content: space-between;
-  border-top: 3px solid #7f1d8e;
+  border-top: 3px solid #b523cb;
   padding: 2em 2em 1em;
 }
 .footer a {
   padding: 0.5rem;
-  color: #4b1453;
+  color: #681775;
   text-decoration: none;
 }
 .footer a:hover {
-  color: #7f1d8e;
+  color: #b523cb;
 }
 .footer .social {
   display: contents;
@@ -6778,7 +6778,17 @@ pre code {
 .sqlite-box {
   padding: 1em;
   margin: 1em;
-  border: solid 0.1em #7f1d8e;
+  border: solid 0.1em #b523cb;
+}
+.head a,
+.css-box a,
+.html-box a,
+.javascript-box a,
+.php-box a,
+.python-box a,
+.git-box a,
+.sqlite-box a {
+  color: #681775;
 }
 
 /* --------------- Header --------------- */
@@ -6786,7 +6796,7 @@ pre code {
   background-color: #8F9FC7;
   grid-column: 1/4;
   grid-row: 1/1;
-  border: solid 0.1em #7f1d8e;
+  border: solid 0.1em #b523cb;
   text-align: center;
   margin-bottom: 0.5rem;
 }
@@ -6870,8 +6880,8 @@ pre code {
 
 /* flex-one style for links block */
 .flex-one {
-  border: solid 1px #7f1d8e;
-  box-shadow: 0 1px 16px 5px #7f1d8e;
+  border: solid 1px #b523cb;
+  box-shadow: 0 1px 16px 5px #b523cb;
   border-radius: 0.3em;
   max-width: 100%;
   background-color: rgba(255, 255, 255, 0.168627451);
@@ -6889,7 +6899,7 @@ pre code {
 /* flex-two style for text content block */
 .flex-contanier .flex-one ul li {
   font-family: "Varela Round", sans-serif;
-  color: #7f1d8e;
+  color: #681775;
   font-weight: bold;
   text-decoration: none;
   list-style: none;
@@ -7009,12 +7019,12 @@ pre code {
 }
 
 .side-analysis {
-  border: solid 1px #7f1d8e;
-  box-shadow: 0 1px 16px 5px #7f1d8e;
+  border: solid 1px #b523cb;
+  box-shadow: 0 1px 16px 5px #b523cb;
   border-radius: 0.3em;
   max-width: 100%;
   background-color: rgba(255, 255, 255, 0.168627451);
-  border: solid 1px #7f1d8e;
+  border: solid 1px #b523cb;
   border-radius: 0.3em;
   grid-column: 1/2;
   grid-row: 1/5;
@@ -7044,7 +7054,7 @@ pre code {
 }
 .grid .side-analysis ul a {
   font-family: "Varela Round", sans-serif;
-  color: #7f1d8e;
+  color: #b523cb;
   font-weight: bold;
 }
 .grid .side-analysis ul a:hover {
@@ -7062,6 +7072,18 @@ pre code {
   padding: 1rem;
 }
 
+.design-flex {
+  display: flex;
+  flex-wrap: inherit;
+}
+.design-flex .design {
+  display: block;
+  margin: 0.5rem;
+}
+.design-flex .design figcaption {
+  text-align: center;
+}
+
 /* --------------- Responsiveness --------------- */
 @media screen and (max-width: 960px) {
   .main-analysis {
@@ -7073,6 +7095,14 @@ pre code {
   }
   .side-analysis {
     display: none;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .design-flex {
+    flex-wrap: wrap;
+  }
+  .design-flex .design {
+    margin: auto;
   }
 }
 table {

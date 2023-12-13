@@ -6441,7 +6441,7 @@ body {
 h1 {
   font-family: "Varela Round", sans-serif;
   font-weight: bold;
-  color: #777;
+  color: #9a9a9a;
   font-size: 2.8em;
   margin-bottom: rem; /* baseline * 2, för att skapa mer utrymme */ /*ändrade för det såg inte bra ut*/
 }
@@ -6449,7 +6449,7 @@ h1 {
 h2 {
   font-family: "Varela Round", sans-serif;
   font-weight: bold;
-  color: #777;
+  color: #9a9a9a;
   font-size: 2em;
   margin-bottom: 0.5rem; /* baseline * 2, för att skapa mer utrymme */ /*ändrade för det såg inte bra ut*/
 }
@@ -6457,7 +6457,7 @@ h2 {
 h3 {
   font-family: "Varela Round", sans-serif;
   font-weight: bold;
-  color: #777;
+  color: #9a9a9a;
   font-size: 1.2em;
   margin-bottom: 0.5rem; /* baseline * 2, för att skapa mer utrymme */ /*ändrade för det såg inte bra ut*/
 }
@@ -6470,7 +6470,7 @@ p, td, th, li, dd {
 
 p {
   font-family: "Varela", sans-serif;
-  color: #777;
+  color: #9a9a9a;
   font-size: 1.25em;
   margin-bottom: 1.5rem; /* 1.2 * 1.25em vår baseline */
   letter-spacing: 1px;
@@ -6484,7 +6484,7 @@ a {
 }
 
 a:hover {
-  color: #777;
+  color: #dd01ff;
 }
 
 .grow {
@@ -6501,7 +6501,7 @@ a:hover {
 
 .figurecaption {
   font-family: "Varela", sans-serif;
-  color: #777;
+  color: #9a9a9a;
   font-size: smaller;
 }
 
@@ -6570,7 +6570,7 @@ figure img {
 }
 
 figcaption {
-  color: #777;
+  color: #9a9a9a;
   letter-spacing: 1px;
   font-style: italic;
   font-size: small;
@@ -6596,7 +6596,7 @@ code {
 }
 
 pre {
-  color: #777;
+  color: #9a9a9a;
   padding: 0 1em;
   border: 1px solid #464646;
   border-radius: 0.3em;
@@ -6621,7 +6621,7 @@ pre code {
   text-decoration: none;
 }
 .nav ul li a:hover {
-  color: #777;
+  color: #9a9a9a;
   transform: scale(1.2);
 }
 
@@ -6662,11 +6662,11 @@ pre code {
 }
 .footer a {
   padding: 0.5rem;
-  color: #6000ae;
+  color: #be72fc;
   text-decoration: none;
 }
 .footer a:hover {
-  color: #777;
+  color: #9a9a9a;
 }
 .footer .social {
   display: contents;
@@ -6781,6 +6781,16 @@ pre code {
   margin: 1em;
   border: solid 0.1em #7307cb;
 }
+.head a,
+.css-box a,
+.html-box a,
+.javascript-box a,
+.php-box a,
+.python-box a,
+.git-box a,
+.sqlite-box a {
+  color: #be72fc;
+}
 
 /* --------------- Header --------------- */
 .head {
@@ -6890,14 +6900,14 @@ pre code {
 /* flex-two style for text content block */
 .flex-contanier .flex-one ul li {
   font-family: "Varela Round", sans-serif;
-  color: #7307cb;
+  color: #be72fc;
   font-weight: bold;
   text-decoration: none;
   list-style: none;
 }
 
 .flex-contanier a:hover {
-  color: #777;
+  color: #9a9a9a;
 }
 
 .flex-two {
@@ -7049,7 +7059,7 @@ pre code {
   font-weight: bold;
 }
 .grid .side-analysis ul a:hover {
-  color: #777;
+  color: #9a9a9a;
 }
 
 .analysis-pic img {
@@ -7061,6 +7071,18 @@ pre code {
   border: 1px solid #464646;
   border-radius: 0.3em;
   padding: 1rem;
+}
+
+.design-flex {
+  display: flex;
+  flex-wrap: inherit;
+}
+.design-flex .design {
+  display: block;
+  margin: 0.5rem;
+}
+.design-flex .design figcaption {
+  text-align: center;
 }
 
 /* --------------- Responsiveness --------------- */
@@ -7076,9 +7098,17 @@ pre code {
     display: none;
   }
 }
+@media screen and (max-width: 1250px) {
+  .design-flex {
+    flex-wrap: wrap;
+  }
+  .design-flex .design {
+    margin: auto;
+  }
+}
 table {
   font-family: "Varela", sans-serif;
-  color: #777;
+  color: #9a9a9a;
   max-width: 100%;
   width: 100%;
   border-collapse: collapse;
@@ -7091,7 +7121,7 @@ table th {
 }
 table td {
   font-size: 130%;
-  border-top: solid 1px #777;
+  border-top: solid 1px #9a9a9a;
 }
 table th,
 table td {

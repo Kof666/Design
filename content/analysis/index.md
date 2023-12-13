@@ -21,7 +21,8 @@ Template: analysis
     <a class="grow" href="analysis/02_load">rapport</a>
 </div>
 <div class="bottom">
-    <h3>Design Principer</h3>'
+    <h3>Design Principer</h3>
+    <p>Här är en rapport om Designprinsiper</p>
     <a class="grow" href="analysis/03_design_principles">rapport</a>
 <div>
 
