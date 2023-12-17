@@ -6970,6 +6970,7 @@ pre code {
 }
 .content a {
   text-align: left;
+  display: block;
 }
 
 /* --------------- Content  --------------- */
@@ -7103,6 +7104,9 @@ pre code {
     flex-wrap: wrap;
   }
   .design-flex .design {
+    margin: auto;
+  }
+  .design-flex .design a {
     margin: auto;
   }
 }
