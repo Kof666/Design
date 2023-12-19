@@ -46,8 +46,8 @@ Här hittade vi ett komplements färgschema:
 <td style="background-color: #e6e6e6">#e6e6e6</td>
 <td style="background-color: #2c2d2f; color:#eee">#2c2d2f</td>
 <td style="background-color: #bfbfbf">#bfbfbf</td>
-<td style="background-color: #ac5e24; color:#eee">#ac5e24</td>
-<td style="background-color: #509e81; color:#eee">#509e81</td>
+<td style="background-color: #ac5e24; color:#eee"><strong>#ac5e24</strong></td>
+<td style="background-color: #509e81"><strong>#509e81</strong></td>
 </tr>
 </table>
 <br>
@@ -61,7 +61,7 @@ Här hittas inget tydligt färgschema:
 <table class="col-palette">
 <tr>
 <td style="background-color: #ffffff">#ffffff</td>
-<td style="background-color: #c9493b; color:#eee">#c9493b</td>
+<td style="background-color: #c9493b; color:#eee"><strong>#c9493b</strong></td>
 <td style="background-color: #202020; color:#eee">#202020</td>
 </tr>
 </table>

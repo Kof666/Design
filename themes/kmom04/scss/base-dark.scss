@@ -14,8 +14,7 @@
 /* Placement */
 
 body {
-    background-image: url('../../../assets/img/header-texture.jpg');
-    background-size: cover;
+    background-color: $box-color;
     display: flex;
     flex-direction: column;
 }

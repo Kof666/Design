@@ -23,7 +23,6 @@
     grid-row: 1 / 5;
     margin: 1rem;
     padding-left:1rem;
-    overflow-y: auto;
 
     iframe { 
         width: 100%;
@@ -31,8 +30,7 @@
     }
 
     a {
-        text-align: left;
-        display: block;
+        display:block;
     }
 }
 
@@ -41,19 +39,19 @@
 .top {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    margin: 1rem;
+    margin-bottom: 1rem;
 }
 
 .mid {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-    margin: 1rem;
+    margin-bottom: 1rem;
 }
 
 .bottom {
     grid-column: 2 / 3;
     grid-row: 4 / 5;
-    margin: 1rem;
+    margin-bottom: 1rem;
 }
 
 .top,
@@ -68,11 +66,6 @@
     h3,
     p {
         margin: 1rem;
-    }
-
-    a {
-        text-align: left;
-        margin-left: 1rem;
     }
 }
 
@@ -146,6 +139,11 @@
 
     .design figcaption {
         text-align: center;
+    }
+
+    .design a {
+        display:block;
+        margin: 0.5rem;
     }
 }
 

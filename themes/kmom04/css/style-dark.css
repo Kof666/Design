@@ -6478,7 +6478,7 @@ p {
 
 a {
   font-family: "Varela Round", sans-serif;
-  color: #7307cb;
+  color: #8f1feb;
   font-weight: bold;
   text-decoration: none;
 }
@@ -6525,8 +6525,7 @@ a:hover {
 
 /* Placement */
 body {
-  background: rgb(224, 226, 230);
-  background: radial-gradient(circle, rgb(18, 18, 19) 0%, rgb(28, 23, 57) 55%, rgb(17, 19, 23) 100%);
+  background-color: #0a1826;
   display: flex;
   flex-direction: column;
 }
@@ -6616,7 +6615,7 @@ pre code {
 /* Navbar */
 .nav ul li a {
   font-family: "Varela Round", sans-serif;
-  color: #7307cb;
+  color: #8f1feb;
   font-weight: bold;
   text-decoration: none;
 }
@@ -6628,7 +6627,7 @@ pre code {
 /* Header style */
 .header {
   background-color: #0d2237;
-  border-bottom: 3px solid #7307cb;
+  border-bottom: 3px solid #8f1feb;
   padding: 0 1em;
   display: flex;
   justify-content: space-between;
@@ -6657,7 +6656,7 @@ pre code {
   display: flex;
   flex: 0 0 auto;
   justify-content: space-between;
-  border-top: 3px solid #7307cb;
+  border-top: 3px solid #8f1feb;
   padding: 2em 2em 1em;
 }
 .footer a {
@@ -6779,7 +6778,7 @@ pre code {
 .sqlite-box {
   padding: 1em;
   margin: 1em;
-  border: solid 0.1em #7307cb;
+  border: solid 0.1em #8f1feb;
 }
 .head a,
 .css-box a,
@@ -6792,12 +6791,18 @@ pre code {
   color: #be72fc;
 }
 
+.javascript-box,
+.python-box {
+  padding: 6em;
+  font-size: xx-large;
+}
+
 /* --------------- Header --------------- */
 .head {
   background-color: #0d2237;
   grid-column: 1/4;
   grid-row: 1/1;
-  border: solid 0.1em #7307cb;
+  border: solid 0.1em #8f1feb;
   text-align: center;
   margin-bottom: 0.5rem;
 }
@@ -6823,7 +6828,7 @@ pre code {
 .javascript-box {
   background-color: #0d2237;
   grid-column: 1/3;
-  grid-row: 3/3;
+  grid-row: 3/5;
   text-align: center;
 }
 
@@ -6837,21 +6842,21 @@ pre code {
 .python-box {
   background-color: #0d2237;
   grid-column: 1/4;
-  grid-row: 4/4;
+  grid-row: 5/7;
   text-align: center;
 }
 
 .git-box {
   background-color: #0d2237;
   grid-column: 1/2;
-  grid-row: 5/5;
+  grid-row: 8/8;
   text-align: center;
 }
 
 .sqlite-box {
   background-color: #0d2237;
   grid-column: 2/4;
-  grid-row: 5/5;
+  grid-row: 8/8;
   text-align: center;
 }
 
@@ -6881,7 +6886,7 @@ pre code {
 
 /* flex-one style for links block */
 .flex-one {
-  border: solid 1px #7307cb;
+  border: solid 1px #8f1feb;
   box-shadow: none;
   border-radius: 0.3em;
   max-width: 100%;
@@ -6962,14 +6967,12 @@ pre code {
   grid-row: 1/5;
   margin: 1rem;
   padding-left: 1rem;
-  overflow-y: auto;
 }
 .content iframe {
   width: 100%;
   height: 10rem;
 }
 .content a {
-  text-align: left;
   display: block;
 }
 
@@ -6977,19 +6980,19 @@ pre code {
 .top {
   grid-column: 2/3;
   grid-row: 2/3;
-  margin: 1rem;
+  margin-bottom: 1rem;
 }
 
 .mid {
   grid-column: 2/3;
   grid-row: 3/4;
-  margin: 1rem;
+  margin-bottom: 1rem;
 }
 
 .bottom {
   grid-column: 2/3;
   grid-row: 4/5;
-  margin: 1rem;
+  margin-bottom: 1rem;
 }
 
 .top,
@@ -7013,20 +7016,14 @@ pre code {
 .bottom p {
   margin: 1rem;
 }
-.top a,
-.mid a,
-.bottom a {
-  text-align: left;
-  margin-left: 1rem;
-}
 
 .side-analysis {
-  border: solid 1px #7307cb;
+  border: solid 1px #8f1feb;
   box-shadow: none;
   border-radius: 0.3em;
   max-width: 100%;
   background-color: #0a1826;
-  border: solid 1px #7307cb;
+  border: solid 1px #8f1feb;
   border-radius: 0.3em;
   grid-column: 1/2;
   grid-row: 1/5;
@@ -7056,7 +7053,7 @@ pre code {
 }
 .grid .side-analysis ul a {
   font-family: "Varela Round", sans-serif;
-  color: #7307cb;
+  color: #8f1feb;
   font-weight: bold;
 }
 .grid .side-analysis ul a:hover {
@@ -7084,6 +7081,10 @@ pre code {
 }
 .design-flex .design figcaption {
   text-align: center;
+}
+.design-flex .design a {
+  display: block;
+  margin: 0.5rem;
 }
 
 /* --------------- Responsiveness --------------- */
